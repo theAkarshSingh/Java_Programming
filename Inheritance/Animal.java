@@ -1,8 +1,10 @@
 package Inheritance;
 
-public class Animal extends Organism {
+public abstract class Animal extends Organism {
 
     void eat() {
-        System.out.println("This animal is eating ");
+        System.out.println("This animal is eating.");
     }
+
+    abstract void move();
 }

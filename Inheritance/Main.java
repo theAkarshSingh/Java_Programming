@@ -8,6 +8,7 @@ public class Main {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Fish fish = new Fish();
 
         System.out.println("Dog Life Status : " + dog.isAlive);
         System.out.println("Cat Life status : " + cat.isAlive);
@@ -15,25 +16,21 @@ public class Main {
         System.out.println("Dog Lives : " + dog.lives);
         System.out.println("Cat Lives : " + cat.lives);
 
+        System.out.println();
         dog.speak();
         dog.eat();
+        dog.move();
+        System.out.println();
         cat.speak();
         cat.eat();
+        cat.move();
+        System.out.println();
+        fish.move();
 
         Plants plant = new Plants();
-        System.out.println(plant.isAlive);
+        System.out.println("\nPlant life status : " + plant.isAlive);
         plant.photosynthesis();
-
-        System.out.println();
-        Person person = new Person("Akarsh", "Singh");
-        person.showName();
         System.out.println();
 
-        Student student = new Student("Akarsh", "Singh", 7.5);
-        student.showName();
-        student.showGPA();
-
-        Employee employee = new Employee("Akarsh", " ", 50000);
-        employee.showSalary();
     }
 }
