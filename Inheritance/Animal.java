@@ -6,5 +6,7 @@ public abstract class Animal extends Organism {
         System.out.println("This animal is eating.");
     }
 
-    abstract void move();
+    void move() {
+        System.out.println("This animal is running.");
+    }
 }

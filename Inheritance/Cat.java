@@ -7,10 +7,7 @@ public class Cat extends Animal {
         System.out.println("The cat goes *meow*");
     }
 
-    void eat() {
-        System.out.println("The Cat is eating.");
-    }
-
+    @Override
     void move() {
         System.out.println("This cat is running.");
     }
