@@ -1,0 +1,8 @@
+package AnonymousClasses;
+
+public class Dog {
+
+    void speak() {
+        System.out.println("The Dog goes *woof*");
+    }
+}
