@@ -1,9 +1,11 @@
 package CollectionFrameworks.ListInterface;
 
-public class LinkedList {
+import java.util.LinkedList;
+
+public class LinkedListBasics {
     static void main() {
 
-        java.util.LinkedList<Integer> linkedList = new java.util.LinkedList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
 
         linkedList.add(11);
         linkedList.add(22);
