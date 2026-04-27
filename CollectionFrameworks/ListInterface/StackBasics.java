@@ -1,9 +1,11 @@
 package CollectionFrameworks.ListInterface;
 
-public class Stack {
+import java.util.Stack;
+
+public class StackBasics {
     static void main() {
 
-        java.util.Stack<Integer> stack = new java.util.Stack<>();
+        Stack<Integer> stack = new Stack<>();
         stack.push(10);
         stack.push(11);
         stack.push(12);
