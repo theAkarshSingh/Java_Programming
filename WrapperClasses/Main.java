@@ -1,4 +1,4 @@
-package Wrapper_Classes;
+package WrapperClasses;
 
 public class Main {
     static void main() {
