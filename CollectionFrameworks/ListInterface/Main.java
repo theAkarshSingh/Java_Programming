@@ -1,4 +1,4 @@
-package CollectionFrameworks;
+package CollectionFrameworks.ListInterface;
 
 import java.util.*;
 

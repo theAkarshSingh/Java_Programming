@@ -1,11 +1,9 @@
-package CollectionFrameworks.LinkedList;
+package CollectionFrameworks.ListInterface;
 
-import java.util.LinkedList;
-
-public class Main {
+public class LinkedList {
     static void main() {
 
-        LinkedList<Integer> linkedList = new LinkedList<>();
+        java.util.LinkedList<Integer> linkedList = new java.util.LinkedList<>();
 
         linkedList.add(11);
         linkedList.add(22);
