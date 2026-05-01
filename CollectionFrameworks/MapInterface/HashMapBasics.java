@@ -2,6 +2,7 @@ package CollectionFrameworks.MapInterface;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapBasics {
     static void main() {
@@ -36,6 +37,12 @@ public class HashMapBasics {
 
         System.out.println(table.containsValue("INDIA"));
         System.out.println(table.containsValue("UP"));
+
+        table.replace("ind", "Indonesia");
+        System.out.println(table);
+
+        Set<String> keyset = table.keySet();
+        System.out.println(keyset);
 
     }
 }
