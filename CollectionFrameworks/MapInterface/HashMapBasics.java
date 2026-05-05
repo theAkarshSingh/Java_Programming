@@ -1,5 +1,6 @@
 package CollectionFrameworks.MapInterface;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -43,6 +44,14 @@ public class HashMapBasics {
 
         Set<String> keyset = table.keySet();
         System.out.println(keyset);
+
+        Collection<String> valueSet = table.values();
+        System.out.println(valueSet);
+
+        //get all the entries from map
+        Set<Map.Entry<String, String>> entrySet = table.entrySet();
+        System.out.println("Entries : "+ entrySet);
+        
 
     }
 }
